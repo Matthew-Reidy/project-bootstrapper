@@ -1,0 +1,1 @@
+Git bootstrap script so I dont bash my head in trying to link local repos to remote repos 
