@@ -25,8 +25,11 @@ def run() -> None:
         subprocess.run(args=["git add ."], shell=True)
         subprocess.run(args=['git commit -m "First Commit"'], shell=True)
         subprocess.run(args=["git push origin main"], shell=True)
+    
     except IndexError:
         print("missing arguments!")
+
+    
 
     
 
